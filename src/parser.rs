@@ -320,7 +320,7 @@ macro_rules! wsnl {
     };
 }
 
-struct ShellParser {
+pub struct ShellParser {
     heredocs: Vec<HereDoc>,
     next_heredoc_index: usize,
 }
